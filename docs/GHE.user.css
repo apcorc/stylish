@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        GitHub Dark + GHE
 @namespace   StylishThemes
-@version     1.0.3
+@version     1.0.4
 @homepageURL https://github.com/StylishThemes/GitHub-Dark
 @updateURL   https://apcorc.github.io/stylish/GHE.user.css
 @license     CC-BY-SA-4.0
@@ -9582,15 +9582,15 @@
 		border-right-color: transparent;
 	}
 
-    .timeline-commits.commit-message>code a {
+    .commit-message>code a {
         color: #d2d2d2 !important;
     }
 
-    .octicon.octicon-check {
+    .commit-ci-status>.octicon.octicon-check {
         fill: #08AB50 !important;
     }
 
-    .octicon.octicon-x {
+    .commit-ci-status>.octicon.octicon-x {
         fill: #FF6669 !important;
     }
 

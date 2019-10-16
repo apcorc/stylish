@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        GitHub Dark + GHE
 @namespace   StylishThemes
-@version     1.0.11
+@version     1.0.12
 @homepageURL https://github.com/StylishThemes/GitHub-Dark
 @updateURL   https://raw.githubusercontent.com/apcorc/stylish/master/docs/GHE.user.css
 @license     CC-BY-SA-4.0
@@ -9614,6 +9614,14 @@
     .sidebar-assignee .octicon-primitive-dot,
     .commit-build-statuses .octicon-primitive-dot {
         fill: #F5A623;
+    }
+
+    .octicon.octicon-git-pull-request.closed {
+        fill: #F5A623;
+    }
+
+    .octicon.octicon-git-merge.merged  {
+        fill: #8368aa;
     }
 
     .text-green {

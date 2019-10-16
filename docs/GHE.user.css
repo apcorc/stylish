@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        GitHub Dark + GHE
 @namespace   StylishThemes
-@version     1.0.8
+@version     1.0.9
 @homepageURL https://github.com/StylishThemes/GitHub-Dark
 @updateURL   https://raw.githubusercontent.com/apcorc/stylish/master/docs/GHE.user.css
 @license     CC-BY-SA-4.0
@@ -4413,7 +4413,7 @@
   body[class="page-responsive"] .text-red,
   .ghh-theme-github .ghh-commit-meta .text-diff-deleted,
   .ghh-theme-github .ghh-pull-meta .text-diff-deleted {
-    color: #f44 !important;
+    color: #f44;
   }
   /* auto-generated rule for "color: #86181d" */
   .form-group.errored .error, .menu-item .menu-warning, .flash-error,
@@ -4630,7 +4630,7 @@
   .color-green-5, .text-green, body.status .text-green,
   body[class="page-responsive"] .color-green-5,
   body[class="page-responsive"] .text-green {
-    color: #6cc644 !important;
+    color: #6cc644;
   }
   /* auto-generated rule for "color: #165c26" */
   .flash-success {
@@ -4771,7 +4771,7 @@
   .color-yellow-8, .text-yellow, .text-pending, body.status .text-pending,
   body[class="page-responsive"] .color-yellow-8,
   body[class="page-responsive"] .text-yellow {
-    color: #cb4 !important;
+    color: #cb4;
   }
   /* auto-generated rule for "color: #735c0f" */
   .form-warning, .form-group.warn .warning, .flash-warn, .RecentBranches-item,
@@ -7845,7 +7845,7 @@
   .markdown-body .absent, .text-red, .release-label.draft,
   input[id="label-color-"]:invalid,
   body[class="page-responsive"] .color-icons .closed {
-    color: #f44 !important;
+    color: #f44;
   }
   .btn-danger.disabled, .btn-danger:disabled,
   body[class="page-responsive"] .btn-danger.disabled,
@@ -8037,7 +8037,7 @@
   .setup-info-module .features-list .octicon, .setup-form-container .secure,
   .highlight .gi, .type-icon-state-open, .release-label.latest a,
   .release .Label--latest a, .menu a .octicon.text-green {
-    color: #6cc644 !important;
+    color: #6cc644;
   }
   /* bright green background */
   .block-diff-added, .text-diff-added .block-diff-neutral {
@@ -9171,7 +9171,7 @@
     color: #f44;
   }
   .text-red {
-    color: #f44 !important;
+    color: #f44;
   }
   .form-group.errored .error {
     color: #f44;
@@ -9204,7 +9204,7 @@
     color: #6cc644;
   }
   .text-green {
-    color: #6cc644 !important;
+    color: #6cc644;
   }
   .btn-primary, .btn-outline-green:hover, .btn-outline-green:active,
   .btn-outline-green.selected, [open] > .btn-outline-green {
@@ -9619,6 +9619,10 @@
 
     .text-red {
         color: #FF6669;
+    }
+
+    .text-yellow {
+        color: #F5A623;
     }
 
     .block-diff-deleted {

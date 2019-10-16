@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        GitHub Dark + GHE
 @namespace   StylishThemes
-@version     1.0.10
+@version     1.0.11
 @homepageURL https://github.com/StylishThemes/GitHub-Dark
 @updateURL   https://raw.githubusercontent.com/apcorc/stylish/master/docs/GHE.user.css
 @license     CC-BY-SA-4.0
@@ -9597,19 +9597,22 @@
 
     .commit-ci-status .octicon-check,
     .merge-status-list .octicon-check,
-    .sidebar-assignee .octicon-check {
+    .sidebar-assignee .octicon-check,
+    .commit-build-statuses .octicon-check {
         fill: #08AB50;
     }
 
-    .commit-ci-status .octicon.octicon-x,
-    .merge-status-list .octicon.octicon-x,
-    .sidebar-assignee .octicon-x {
+    .commit-ci-status .octicon-x,
+    .merge-status-list .octicon-x,
+    .sidebar-assignee .octicon-x,
+    .commit-build-statuses .octicon-x {
         fill: #FF6669;
     }
 
     .commit-ci-status .octicon-primitive-dot,
     .merge-status-list .octicon-primitive-dot,
-    .sidebar-assignee .octicon-primitive-dot {
+    .sidebar-assignee .octicon-primitive-dot,
+    .commit-build-statuses .octicon-primitive-dot {
         fill: #F5A623;
     }
 

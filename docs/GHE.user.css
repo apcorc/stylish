@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        GitHub Dark + GHE
 @namespace   StylishThemes
-@version     1.0.4
+@version     1.0.5
 @homepageURL https://github.com/StylishThemes/GitHub-Dark
 @updateURL   https://raw.githubusercontent.com/apcorc/stylish/master/docs/GHE.user.css
 @license     CC-BY-SA-4.0
@@ -9586,11 +9586,11 @@
         color: #d2d2d2 !important;
     }
 
-    .commit-ci-status>.octicon.octicon-check {
+    .commit-ci-status .octicon-check {
         fill: #08AB50 !important;
     }
 
-    .commit-ci-status>.octicon.octicon-x {
+    .commit-ci-status .octicon.octicon-x {
         fill: #FF6669 !important;
     }
 

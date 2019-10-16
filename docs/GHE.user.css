@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        GitHub Dark + GHE
 @namespace   StylishThemes
-@version     1.0.6
+@version     1.0.7
 @homepageURL https://github.com/StylishThemes/GitHub-Dark
 @updateURL   https://raw.githubusercontent.com/apcorc/stylish/master/docs/GHE.user.css
 @license     CC-BY-SA-4.0
@@ -212,6 +212,7 @@
   } EOT;
 }
 ==/UserStyle== */
+
 @-moz-document regexp("^https?://((gist|guides|help|lab|launch-editor|raw|resources|status|developer)\\.)?github\\.com/((?!generated_pages/preview).)*$"), domain("githubusercontent.com"), domain("graphql-explorer.githubapp.com"), domain("www.githubstatus.com"), regexp("^https:\/\/(ghe.*.com).*$") {
 /*! Github Dark v1.22.118 (2019-10-15) */
 /*! Repository: https://github.com/StylishThemes/GitHub-Dark    */
@@ -8791,6 +8792,7 @@
     color: var(--ghd-code-color, #ccc) !important;
   }
 }
+
 @-moz-document regexp("^https://www\.zuora\.com.*github\.com.*$"), regexp("^https:\/\/(ghe.*.com).*$") {
   /* Styles the payment form iframe */
   body, label, .popup {
@@ -8819,6 +8821,7 @@
     background: linear-gradient(#508055, #407045) !important;
   }
 }
+
 @-moz-document domain("launch-editor.github.com"), regexp("^https:\/\/(ghe.*.com).*$") {
   /* Styles the actions visual editor */
   .editor-node.bg-white, .editor-node.bg-gray-light {
@@ -8948,6 +8951,7 @@
     background: #181818;
   }
 }
+
 @-moz-document domain("help.github.com"), regexp("^https:\/\/(ghe.*.com).*$") {
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h4 a > strong code {
     color: #bebebe;
@@ -8969,6 +8973,7 @@
     color: var(--ghd-code-color, #ccc);
   }
 }
+
 @-moz-document domain("resources.github.com"), regexp("^https:\/\/(ghe.*.com).*$") {
   body .user-status-header, body, .btn-primary .Counter, .btn-purple .Counter,
   .btn-blue .Counter, .btn-outline, .btn-outline:hover .Counter,
@@ -9516,6 +9521,7 @@
     background: /*[[base-color]]*/;
   }
 }
+
 @-moz-document regexp("^https:\\/\\/(github\\.com)\\/(features)\\/(security|actions).*$"), regexp("^https:\/\/(ghe.*.com).*$") {
   img[src*="security-vulnerability.svg"],
   img[src*="security-vulnerability-alert.svg"], img[src*="security-policy.svg"],
@@ -9562,6 +9568,7 @@
     filter: brightness(60%);
   }
 }
+
 @-moz-document regexp("^https:\/\/(github\.com)\/(features)\.*$"), regexp("^https:\/\/(ghe.*.com).*$") {
   img[src*="img-"] {
     filter: invert(90%) hue-rotate(-180deg) !important;
@@ -9582,24 +9589,20 @@
 		border-right-color: transparent;
 	}
 
-    .commit-message>code a {
-        color: #d2d2d2 !important;
+    .timeline-commits .commit-message>code a  {
+        color: #d2d2d2;
     }
 
-    .commit-ci-status .octicon-check {
-        fill: #08AB50 !important;
+    .commit-ci-status .octicon-check, .merge-status-list .octicon-check {
+        fill: #08AB50;
     }
 
-    .commit-ci-status .octicon.octicon-x {
-        fill: #FF6669 !important;
+    .commit-ci-status .octicon.octicon-x, .merge-status-list .octicon.octicon-x {
+        fill: #FF6669;
     }
 
-    .commit-ci-status .octicon-primitive-dot {
-        fill: #F5A623 !important;
-    }
-
-    .merge-status-list .octicon-primitive-dot {
-        fill: #F5A623 !important;
+    .commit-ci-status .octicon-primitive-dot, .merge-status-list .octicon-primitive-dot {
+        fill: #F5A623;
     }
 
 	body {

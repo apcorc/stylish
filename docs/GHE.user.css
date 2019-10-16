@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        GitHub Dark + GHE
 @namespace   StylishThemes
-@version     1.0.7
+@version     1.0.8
 @homepageURL https://github.com/StylishThemes/GitHub-Dark
 @updateURL   https://raw.githubusercontent.com/apcorc/stylish/master/docs/GHE.user.css
 @license     CC-BY-SA-4.0
@@ -7809,7 +7809,7 @@
     background: #911 !important;
   }
   .block-diff-deleted, .text-diff-deleted .block-diff-neutral {
-    background: #b22 !important;
+    background: #b22;
   }
   /* red border */
   .mergeable-dirty .bubble .mergeable, #message.major, .comment-form-error,
@@ -8041,7 +8041,7 @@
   }
   /* bright green background */
   .block-diff-added, .text-diff-added .block-diff-neutral {
-    background: #6cc644 !important;
+    background: #6cc644;
   }
   /* interactive button - bright border */
   .btn-primary:not(.compare-button):not(.btn-outline):not([disabled]):not(.disabled),
@@ -9581,11 +9581,13 @@
 		background: inherit;
 	}
 
-	.timeline-comment-wrapper>.timeline-comment:before, .timeline-new-comment .timeline-comment:before {
+	.timeline-comment-wrapper>.timeline-comment:before,
+    .timeline-new-comment .timeline-comment:before {
 		border-right-color: #404040;
 	}
 
-	.timeline-comment-wrapper>.timeline-comment:after, .timeline-new-comment .timeline-comment:after {
+	.timeline-comment-wrapper>.timeline-comment:after,
+    .timeline-new-comment .timeline-comment:after {
 		border-right-color: transparent;
 	}
 
@@ -9593,16 +9595,38 @@
         color: #d2d2d2;
     }
 
-    .commit-ci-status .octicon-check, .merge-status-list .octicon-check {
+    .commit-ci-status .octicon-check,
+    .merge-status-list .octicon-check,
+    .sidebar-assignee .octicon-check {
         fill: #08AB50;
     }
 
-    .commit-ci-status .octicon.octicon-x, .merge-status-list .octicon.octicon-x {
+    .commit-ci-status .octicon.octicon-x,
+    .merge-status-list .octicon.octicon-x,
+    .sidebar-assignee .octicon-x {
         fill: #FF6669;
     }
 
-    .commit-ci-status .octicon-primitive-dot, .merge-status-list .octicon-primitive-dot {
+    .commit-ci-status .octicon-primitive-dot,
+    .merge-status-list .octicon-primitive-dot,
+    .sidebar-assignee .octicon-primitive-dot {
         fill: #F5A623;
+    }
+
+    .text-green {
+        color: #08AB50;
+    }
+
+    .text-red {
+        color: #FF6669;
+    }
+
+    .block-diff-deleted {
+        background: #FF6669;
+    }
+
+    .block-diff-added {
+        background: #08AB50;
     }
 
 	body {
